@@ -212,6 +212,9 @@ p {
 
 /*CSS DE PAGINAS EN GENERAL*/
 
+/*------------------------INDEX----------------------*/
+
+
 .index-hero {
     background-image: url(../assets/img/fondo-header.jpg);
     width: 100%;
@@ -349,6 +352,7 @@ p {
     height: 100px;
 }
 
+/*-----------------------NOTICIAS----------------------*/
 
 .noticias-hero {
     background-image: url(../assets/img/fondo-header.jpg);
@@ -443,6 +447,8 @@ p {
 }
 
 
+/*----------------------INGRESAR---------------------*/
+
 .ingresar-hero {
     background-image: url(../assets/img/fondo-header.jpg);
     width: 100%;
@@ -504,35 +510,39 @@ p {
     justify-content: center;
     align-content: center;
     align-items: baseline;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .titulo{
     grid-area: titulo;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
 }
 
 .formulario{
     grid-area: formulario;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
 }
-.formulario form{
-    display: flex;
-    gap: 2rem;
-    background-color: rgba(0, 0, 0, 0.408);
-    padding-bottom: 2rem;
+.form{
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 2.2rem;
+    padding: 2rem;
+    padding: 4rem;
+}
+.form label{
+    font-size: 1.8rem;
+}
+.form fieldset legend{
+    font-size: 1.8rem;
+}
+.titulo h2{
+    margin: 1rem;
 }
 .ingresar-main a{
     color: rgb(151, 2, 151);
     text-decoration: underline;
     font-size: 3rem;
 }
+
+
+/*----------------------EVENTOS----------------------*/
 
 .eventos-hero {
     background-image: url(../assets/img/fondo-eventos.jpg);
@@ -630,6 +640,8 @@ p {
     align-items: center;
 }
 
+
+/*-----------------------MARCAS--------------------*/
 
 .marcas-hero {
     background-image: url(../assets/img/fondo-header.jpg);
@@ -828,6 +840,8 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+/* -------------------mas de nosotros--------------------*/
 
 
 .mas-de-nosotros-hero {
@@ -1058,6 +1072,9 @@ main{
     padding: 2rem;
     margin: 2rem 0rem 4rem 0rem;
 }
+
+/*--------------------****-------------------*/
+
 
 /* AQUI EMPIEZA MEDIA QUERY DE INDEX.HTML*/
 
