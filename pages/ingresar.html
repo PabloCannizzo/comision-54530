@@ -12,12 +12,12 @@
 <body>
     <div class="ingresar-hero">
         <header class="ingresar-header">
-            <div>
+            <div class="titulo-ingresar">
                 <h1>
                     <a href="../index.html">motocicletas</a><!--agregar logotipo de la pagina-->
                 </h1>
             </div>
-            <div>
+            <div class="navbar-ingresar">
                 <nav>
                     <ul class="ingresar-navbar">
                         <li>
@@ -29,16 +29,22 @@
                         <li>
                             <a href="../pages/eventos.html">eventos</a>
                         </li>
-                        <li>
+                        <li class="atajo-mdn-ingresar">
                             <a href="../pages/mas-de-nosotros.html">más de nosotros</a>
                         </li>
-                        <li>
+                        <li class="atajo-de-ingresar">
                             <a href="../pages/ingresar.html">ingresar</a>
+                        </li>
+                        <li>
+                            <a class="logo-mdn-ingresar" href="../pages/mas-de-nosotros.html"><img src="../assets/img/search-logo.png" alt="logo-busqueda"></a>
+                        </li>
+                        <li>
+                            <a class="logo-ingresar-ingresar" href="../pages/ingresar.html"><img src="../assets/img/icono-avatar.png" alt="logo-de-ingresar"></a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div>
+            <div class="buscador-ingresar">
                 <form action="" class="busqueda-ingresar">
                     <label for="search"></label>
                     <input type="search" name="Busqueda" id="" placeholder="Busqueda">
@@ -52,13 +58,21 @@
                 </div>
                 <div class="fomulario">
                     <form class="form" action="">
-                        <fieldset>
-                            <legend><strong>Inicia Sesión</strong></legend>
-                            <label for="email">e-mail:</label>
-                            <input type="email" id="email" placeholder="Ingresa email" required>
-                            <label for="pass">contraseña:</label>
-                            <input type="password" id="pass" placeholder="Ingresa contraseña" required>
-                        </fieldset>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">e-mail:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ingrese su e-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">contraseña:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ingrese su contraseña">
+                        </div>
+                        <!-- <fieldset>
+                                                <legend><strong>Inicia Sesión</strong></legend>
+                                                <label for="email">e-mail:</label>
+                                                <input type="email" id="email" placeholder="Ingresa email" required>
+                                                <label for="pass">contraseña:</label>
+                                                <input type="password" id="pass" placeholder="Ingresa contraseña" required>
+                                            </fieldset> -->
                         <input type="submit">
                         <input type="reset">
                     </form>
