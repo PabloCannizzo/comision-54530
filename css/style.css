@@ -1039,8 +1039,25 @@ main{
     align-items: center;
 }
 
-
-
+.preguntas-mdn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.preguntas-mdn h3{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2rem;
+}
+.link-preguntas{
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 3rem;
+    padding: 2rem;
+    margin: 2rem 0rem 4rem 0rem;
+}
 
 /* AQUI EMPIEZA MEDIA QUERY DE INDEX.HTML*/
 
