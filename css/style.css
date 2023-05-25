@@ -931,7 +931,41 @@ main{
     color: beige;
 }
 
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+    "h3-contacto-mdn"
+    "info-mdn"
+    ;
+    justify-content: center;
+    align-items: center;
+}
+.h3-contacto-mdn{
+    grid-area: h3-contacto-mdn;
+    justify-content: center;
+    align-items: center;
+}
+.h3-contacto-mdn h3{
+    font-size: 3rem;
+}
 
+.info-mdn{
+    grid-area: info-mdn;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr) ;
+    grid-template-areas:
+    "img-1-info img-2-info"
+    "img-3-info img-4-info"
+    ;
+    justify-content: center;
+}
+
+
+
+/* AQUI EMPIEZA MEDIA QUERY DE INDEX.HTML*/
 
 @media (max-width:2540px){
     .index-header img{
