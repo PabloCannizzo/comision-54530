@@ -622,10 +622,26 @@ p {
     height: 60rem;
     width: 40rem;
     padding-left: 0.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.articulo-11{
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 0.8rem;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .articulo-11 p {
     word-spacing: 0.35rem;
+}
+.articulo-11 img{
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .articulo-11 a {
@@ -634,10 +650,23 @@ p {
     text-decoration: underline;
 }
 
+.articulo-2{
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 0.8rem;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .articulo-2 p {
     word-spacing: 4px;
 }
-
+.articulo-2 img{
+    display: flex;
+    padding: 2rem;
+}
 .articulo-2 a {
     color: beige;
     text-transform: uppercase;
