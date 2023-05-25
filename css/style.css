@@ -941,29 +941,103 @@ main{
     ;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
 }
 .h3-contacto-mdn{
     grid-area: h3-contacto-mdn;
+}
+.contacto h3-contacto-mdn h3{
+    font-size: 4rem;
     justify-content: center;
     align-items: center;
-}
-.h3-contacto-mdn h3{
-    font-size: 3rem;
 }
 
 .info-mdn{
     grid-area: info-mdn;
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-template-rows: repeat(2 1fr) ;
-    grid-template-areas:
-    "img-1-info img-2-info"
-    "img-3-info img-4-info"
-    ;
-    justify-content: center;
+}
+.articulo-info img{
+    width: 10rem;
+    height: 10rem;
 }
 
-
+.articulo-info{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+        "img-1-info img-2-info"
+        "img-3-info img-4-info";
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.img-1-info{
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 3rem;
+    padding: 1rem;
+    grid-area: img-1-info;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-1-info p{
+    grid-area: img-1-info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-2-info{
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 3rem;
+    grid-area: img-2-info;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-2-info p{
+    grid-area: img-2-info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-3-info{
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 3rem;
+    grid-area: img-3-info;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-3-info p{
+    grid-area: img-3-info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-4-info{
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 3rem;
+    grid-area: img-4-info;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-4-info p{
+    width: 24rem;
+    grid-area: img-4-info;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /* AQUI EMPIEZA MEDIA QUERY DE INDEX.HTML*/
 
