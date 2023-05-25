@@ -879,12 +879,11 @@ main{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-rows: repeat(31fr);
     grid-template-areas: none
-    "h2-mdn"
-    "h3-mdn"
-    "img-logos"
-    ;
+        "h2-mdn"
+        "h3-mdn"
+        "img-logos";
     justify-content: center;
     align-items: center;
 }
@@ -897,12 +896,25 @@ main{
     grid-area: h3-mdn;
     font-size: 2rem;
 }
-
-.mas-de-nosotros-main img {
-    width: 200px;
+.img-logos{
+    grid-area: img-logos;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+        "img-1 img-2 img-3"
+        "img-4 img-5 .";
+    justify-content: space-evenly;
+    align-content: center;
+    object-fit: contain;
+}
+.img-logos img {
+    width: 35rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
+    margin-bottom: 3rem;
 }
 
 .mas-de-nosotros-main h3 strong{
