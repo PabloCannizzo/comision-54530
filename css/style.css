@@ -886,15 +886,18 @@ main{
         "img-logos";
     justify-content: center;
     align-items: center;
+    gap: 4rem;
 }
 .h2-mdn{
     grid-area: h2-mdn;
     font-size: 2.5rem;
     color:rgb(155, 51, 155);
+    margin: 2rem;
 }
 .h3-mdn{
     grid-area: h3-mdn;
     font-size: 2rem;
+    margin-bottom: 3rem;
 }
 .img-logos{
     grid-area: img-logos;
@@ -907,6 +910,7 @@ main{
     justify-content: space-evenly;
     align-content: center;
     object-fit: contain;
+    gap: 5rem;
 }
 .img-logos img {
     width: 35rem;
@@ -914,19 +918,20 @@ main{
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    margin-bottom: 3rem;
+    border-radius: 37rem;
+    background-color: rgba(255, 255, 255, 0.479);
 }
-
+.img-3{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
 .mas-de-nosotros-main h3 strong{
     background-color: rgba(0, 0, 0, 0.379);
     color: beige;
 }
 
-.mas-de-nosotros-main h4{
-    text-decoration: none;
-    font-size: 1.5rem;
-    text-indent: 1.2rem;
-}
+
 
 @media (max-width:2540px){
     .index-header img{
