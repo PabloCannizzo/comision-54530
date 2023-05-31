@@ -61,18 +61,18 @@
                     <h2>inicia sesión</h2>
                 </div>
                 <div class="fomulario">
-                    <form>
-                        <div class="mb-3 ">
+                    <form class="pb-4 container-fluid text-bg-secondary">
+                        <div class="mb-3 p-3 text-black ">
                             <label for="exampleInputEmail1" class="form-label">correo electronico</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">campo requerido</div>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3 p-3 text-black ">
                             <label for="exampleInputPassword1" class="form-label">contraseña</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
-                        <div class="mb-3 form-check">
+                        <div class="form-check mb-3 text-black">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">mostrar</label>
                         </div>
@@ -81,17 +81,18 @@
                     <a href="../pages/ingresar.html">¿Olvido la contraseña?</a>
                 </div>
             </section>
-            <section>
+            <section class="mb-4 mt-4">
                 <p><strong>Dejenos su comentario respecto al contenido</strong></p>
-                <div class="mb-3">
+                <div class="mb-3 p-3 text-bg-secondary text-black ">
                     <label for="exampleFormControlInput1" class="form-label">correo electronico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 p-3 text-bg-secondary text-black ">
                     <label for="exampleFormControlTextarea1" class="form-label">comentarios</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <button type="submit" class="btn btn-primary">enviar</button>
                 </div>
-                <button type="submit" class="btn btn-primary">enviar</button>
             </section>
         </main>
         <footer class="footer">
@@ -111,22 +112,23 @@
                         <li><a href="../pages/mas-de-nosotros.html">politicas de seguridad</a></li>
                     </ul>
                 </div>
-                <div class="buscador-footer">
-                    <form action="" class="navbar-footer">
-                        <legend><strong>suscribite a nuestras novedades</strong></legend>
-                        <label for="email"> e-mail:</label>
-                        <input type="email" id="email" placeholder="Ingresa email" required>
-                        <input type="submit">
+                <div class="container-fluid d-flex justify-content-center align-content-center ">
+                    <form class="container-fluid ">
+                        <div class="mb-3 p-3 text-bg-secondary text-black border border-black">
+                            <label  for="exampleInputEmail1" class="form-label">suscribite a nuestras novedades</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            <button type="submit" class="btn btn-primary">enviar</button>
+                        </div>
                     </form>
                 </div>
             </section>
-            <div>
-                <a href="../pages/mas-de-nosotros.html"><img class="logo-w" src="../assets/img/logo-w-color.png"
-                        alt=""></a>
-            </div>
-            <div>
+            <section>
+                <a href="../pages/mas-de-nosotros.html"><img class="logo-w" src="../assets/img/logo-w-color.png" alt=""></a>
+            </section>
+            <section>
                 <p>© copyright derechos reservados del autor</p>
-            </div>
+            </section>  
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

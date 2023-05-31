@@ -509,7 +509,13 @@ p {
     padding: 0rem 2rem 0rem 0rem;
 }
 
-.ingresar-main {
+.mb-3{
+    font-size: 2rem;
+}
+.mb-3 div{
+    font-size: 1.5rem;
+}
+/* .ingresar-main {
     width: 100%;
     height: 100%;
     display: grid;
@@ -524,24 +530,24 @@ p {
     align-content: center;
     align-items: baseline;
     gap: 4rem;
-}
+} */
 
-.titulo {
+/* .titulo {
     grid-area: titulo;
 }
 
 .formulario {
     grid-area: formulario;
-}
+} */
 
-.form {
+/* .form {
     background-color: rgba(255, 255, 255, 0.375);
     border-radius: 2.2rem;
     padding: 2rem;
     padding: 4rem;
-}
+} */
 
-.form label {
+/* .form label {
     font-size: 1.8rem;
 }
 
@@ -557,7 +563,7 @@ p {
     color: rgb(151, 2, 151);
     text-decoration: underline;
     font-size: 3rem;
-}
+} */
 
 
 /*----------------------EVENTOS----------------------*/
