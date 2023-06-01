@@ -509,11 +509,38 @@ p {
     padding: 0rem 2rem 0rem 0rem;
 }
 
+.ingresar-main section div h2 {
+    color: rgb(155, 51, 155);
+}
 .mb-3{
     font-size: 2rem;
 }
 .mb-3 div{
     font-size: 1.5rem;
+}
+.ingresar-main div a{
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+.ingresar-main label{
+    font-size: 1.7rem;
+}
+.ingresar-main div emailHelp{
+    font-size: 1.5rem;
+}
+.ingresar-main form{
+    width: 100%;
+}
+.emailHelp{
+    font-size: 1.2rem;
+}
+.ingresar-main button{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.mb-4 p{
+    color: beige;
+    letter-spacing: 0.1rem;
 }
 /* .ingresar-main {
     width: 100%;
