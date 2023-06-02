@@ -488,16 +488,25 @@ p {
 
 .ingresar-navbar {
 
-    font-size: 1.8rem;
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 2rem;
-    /* padding: 2rem 0rem; */
-    /* align-items: center;
+font-size: 1.8rem;
+
+display: flex;
+
+list-style: none;
+
+flex-direction: row;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+align-items: center;
+
+gap: 2rem;
+
+/* padding: 2rem 0rem; */
+
+/* align-items: center;
     justify-content: space-between; */
 }
 
@@ -1341,7 +1350,7 @@ main {
         align-items: center;
         text-align: center;
         font-style: 700;
-        background-color: rgba(0, 0, 0, 0.489);
+        /* background-color: rgba(0, 0, 0, 0.489); */
     }
 
     .titulo h1 {
@@ -1634,70 +1643,211 @@ main {
 }
 
 /*---------------media query de pag ingresar-----------------*/
+@media(max-width:768px){
+    
+}
 
 
 
-    @media (max-width:320px) {
-        .ingresar-header {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-            gap: 1rem;
-            padding-bottom: 0.5rem;
-            padding: 1rem;
-        }
-
-        .atajo-de-ing-ing {
-            display: none;
-        }
-
-        .atajo-mdn-ingresar {
-            display: none;
-        }
-
-        .titulo-ingresar h1 {
-            font-size: 4rem;
-            text-shadow: 0.2rem 0rem 0.2rem;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .ingresar-navbar a {
-            font-size: 1rem;
-        }
-
-        .ingresar-navbar {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(0, 0, 0, 0.325);
-            border-radius: 0.8rem;
-            padding: 0rem 0.5rem 0rem 0.5rem;
-        }
-
-        .ingresar-navbar img {
-            display: flex;
-            width: 2rem;
-            height: 2rem;
-            border-radius: 2rem;
-            background-color: rgba(255, 255, 255, 0.303);
-            object-fit: contain;
-            justify-items: center;
-            align-items: center;
-            align-items: center;
-            padding: 0.5rem;
-        }
-
-        .buscador-ingresar {
-            display: none;
-        }
-
-        .logo-w {
-            width: 3rem;
-            height: 3rem;
-        }
+@media(max-width:425px){
+    .buscador-ingresar{
+        display: none;
     }
+    .atajo-de-ing-ing{
+        display: none;
+    }
+    .atajo-mdn-ingresar{
+        display: none;
+    }
+    .ingresar-header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .titulo-ingresar h1 a{
+        font-size: 5.2rem;
+        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+    }
+    .ingresar-navbar a{
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
+    }
+    .ingresar-navbar{
+        background-color:rgba(0, 0, 0, 0.325);
+        border-radius: 0.8rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    .ingresar-header img{
+        display: flex;
+        flex-direction: row;
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 2rem;
+        background-color: rgba(255, 255, 255, 0.303);
+        object-fit: contain;
+        justify-items: center;
+        align-items: center;
+        padding: 0.2rem;
+    }
+
+    .info-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+}
+
+
+@media(max-width:375px){
+
+    .buscador-ingresar{
+        display: none;
+    }
+    .atajo-de-ing-ing{
+        display: none;
+    }
+    .atajo-mdn-ingresar{
+        display: none;
+    }
+    .ingresar-header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .navbar-ingresar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.325);
+        border-radius: 0.8rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .titulo-ingresar h1 a{
+        font-size: 5rem;
+        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+    }
+    .ingresar-header a{
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .ingresar-navbar a{
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
+    }
+    
+    .formulario-footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .logo-w {
+        width: 5rem;
+        height: 5rem;
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .ingresar-header img{
+        display: flex;
+        flex-direction: row;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+        background-color: rgba(255, 255, 255, 0.303);
+        object-fit: contain;
+        justify-items: center;
+        align-items: center;
+        padding: 0.3rem;
+    }
+    
+}
+
+@media (max-width:320px) {
+    .ingresar-header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 1rem;
+        padding-bottom: 0.5rem;
+        padding: 1rem;
+    }
+
+    .atajo-de-ing-ing {
+        display: none;
+    }
+
+    .atajo-mdn-ingresar {
+        display: none;
+    }
+
+    .titulo-ingresar h1 {
+        font-size: 4rem;
+        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ingresar-navbar a {
+        font-size: 1rem;
+    }
+
+    .ingresar-navbar {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        border-radius: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .ingresar-navbar img {
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+        background-color: rgba(255, 255, 255, 0.303);
+        object-fit: contain;
+        justify-items: center;
+        align-items: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .buscador-ingresar {
+        display: none;
+    }
+
+    .logo-w {
+        width: 3rem;
+        height: 3rem;
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+}
 
 /* HASTA AQUI ES RESPONDIVE DE PAGINA INDEX */
