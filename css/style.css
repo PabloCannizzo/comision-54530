@@ -542,6 +542,9 @@ p {
     color: beige;
     letter-spacing: 0.1rem;
 }
+.ingresar-main formulario form a{
+    text-align: center;
+}
 /* .ingresar-main {
     width: 100%;
     height: 100%;
@@ -1631,174 +1634,21 @@ main {
 }
 
 /*---------------media query de pag ingresar-----------------*/
-@media (max-width:2540px) {
-    .ingresar-header img {
-        display: none;
-    }
 
-    .info-footer {
-        display: grid;
-        grid-template-columns: repeat(2 1fr);
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "preguntas-footer buscador-footer";
-        margin-bottom: 1rem;
-    }
-
-    .preguntas-footer {
-        grid-area: preguntas-footer;
-        justify-content: left;
-    }
-
-    .buscador-footer {
-        grid-area: buscador-footer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    @media (max-width:1440px) {
-        .ingresar-header img {
-            display: none;
-        }
-    }
-
-    @media (max-width:1024px) {
-        .logo-mdn-ingresar {
-            display: none;
-        }
-
-        .logo-ingresar-ingresar {
-            display: none;
-        }
-
-        .ingresar-header {
-            width: 100%;
-            height: 100%;
-            gap: 1rem;
-        }
-
-        .titulo-ingresar h1 {
-            font-size: 4.5rem;
-        }
-
-        .ingresar-navbar li a {
-            font-size: 1.5rem;
-        }
-    }
-
-    @media (max-width:768px) {
-        .ingresar-header {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 3rem;
-        }
-
-        .titulo-ingresar {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            text-align: center;
-            font-style: 700;
-        }
-
-        .titulo-ingresar h1 {
-            font-size: 5rem;
-            border: 0.2rem;
-            text-shadow: 0.1rem 0rem 0.1rem;
-        }
-
-        .ingresar-navbar {
-            justify-content: space-around;
-            align-items: center;
-            padding-top: 1rem;
-        }
-
-        .ingresar-navbar img {
-            width: 2.7rem;
-            height: 2.7rem;
-            border-radius: 3rem;
-            background-color: rgba(255, 255, 255, 0.504);
-            padding: 0.5rem;
-            object-fit: contain;
-        }
-
-        .atajo-de-ingresar {
-            display: none;
-        }
-
-        .buscador-ingresar {
-            display: flex;
-            grid-area: buscador;
-            justify-self: center;
-            align-items: center;
-            padding: 0.7rem 0rem 0.7rem 2rem;
-            background-color: rgba(0, 0, 0, 0.537);
-            border-radius: 1rem;
-        }
-    }
-
-    @media (max-width:425px) {
-        .ingresar-navbar a {
-            font-size: 1.2rem;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .atajo-mdn-ingresar {
-            display: none;
-        }
-    }
-
-    @media (max-width:375px) {
-        .ingresar-header {
-            justify-content: center;
-            align-items: center;
-        }
-
-        .atajo-mdn-ingresar {
-            display: none;
-        }
-
-        .ingresar-navbar {
-            display: flex;
-            justify-content: space-around;
-            padding: 0rem 1rem 0rem 1rem;
-        }
-        
-        .info-footer {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: left;
-            margin-bottom: 1rem;
-        }
-    
-        .buscador-footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-    }
 
 
     @media (max-width:320px) {
         .ingresar-header {
             display: flex;
             flex-direction: column;
-            align-self: center;
+            align-content: center;
+            justify-content: center;
             gap: 1rem;
             padding-bottom: 0.5rem;
             padding: 1rem;
         }
 
-        .atajo-de-ingresar {
+        .atajo-de-ing-ing {
             display: none;
         }
 
@@ -1820,7 +1670,7 @@ main {
         .ingresar-navbar {
             display: flex;
             flex-direction: row;
-            align-content: center;
+            align-items: center;
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.325);
             border-radius: 0.8rem;
@@ -1828,12 +1678,14 @@ main {
         }
 
         .ingresar-navbar img {
+            display: flex;
             width: 2rem;
             height: 2rem;
             border-radius: 2rem;
             background-color: rgba(255, 255, 255, 0.303);
             object-fit: contain;
-            justify-content: center;
+            justify-items: center;
+            align-items: center;
             align-items: center;
             padding: 0.5rem;
         }
@@ -1842,28 +1694,10 @@ main {
             display: none;
         }
 
-        .info-footer {
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-            align-items: left;
-            list-style: none;
-        }
-
-        .buscador-footer {
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            object-fit: cover;
-            align-items: center;
-            margin: 1rem 0rem 1rem 0rem;
-        }
-
         .logo-w {
             width: 3rem;
             height: 3rem;
         }
     }
-}
 
 /* HASTA AQUI ES RESPONDIVE DE PAGINA INDEX */
