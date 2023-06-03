@@ -1644,12 +1644,12 @@ main {
 
 /*---------------media query de pag ingresar-----------------*/
 @media(max-width:2520px){
-    .logo-mdn-ingresar{
+    /* .logo-mdn-ingresar{
         display: none;
     }
     .logo-ingresar-ingresar{
         display: none;
-    }
+    } */
     .titulo-ingresar h1 a{
         font-size: 5.2rem;
         text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
@@ -1674,12 +1674,12 @@ main {
 }
 
 @media(max-width:1440px){
-    .logo-mdn-ingresar{
+    /* .logo-mdn-ingresar{
         display: none;
     }
     .logo-ingresar-ingresar{
         display: none;
-    }
+    } */
     .titulo-ingresar h1 a{
         font-size: 5.2rem;
         text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
@@ -1703,12 +1703,12 @@ main {
     }
 }
 @media(max-width:1024px){
-    .logo-mdn-ingresar{
+    /* .logo-mdn-ingresar{
         display: none;
     }
     .logo-ingresar-ingresar{
         display: none;
-    }
+    } */
     .titulo-ingresar h1 a{
         font-size: 5.2rem;
         text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
@@ -1733,9 +1733,9 @@ main {
 }
 
 @media(max-width:768px){
-    .logo-mdn-ingresar{
+    /* .logo-mdn-ingresar{
         display: none;
-    }
+    } */
     .atajo-de-ing-ing{
         display: none;
     }
@@ -1788,10 +1788,10 @@ main {
     .buscador-ingresar{
         display: none;
     }
-    .atajo-de-ing-ing{
+    .logo-mdn-ingresar{
         display: none;
     }
-    .atajo-mdn-ingresar{
+    .logo-ingresar-ingresar{
         display: none;
     }
     .ingresar-header{
@@ -1874,12 +1874,19 @@ main {
         font-size: 5rem;
         text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
     }
+    .ingresar-navbar{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
     .ingresar-header a{
-        font-size: 1.6rem;
+        font-size: 1rem;
         display: flex;
         justify-content: center;
         align-content: center;
-        
+    }
+    .ingresar-navbar a{
+        font-size: 1rem;
     }
     .ingresar-navbar a{
         text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
