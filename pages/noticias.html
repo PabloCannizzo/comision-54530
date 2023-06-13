@@ -12,6 +12,8 @@
     <meta property="og:description" content=Motocicletas. Conoce toda la ultima información sobre las más grandes marcas mundiales.>
     <meta property="og:image" content="https://unsplash.com/es/fotos/g1o5VpNy_l4">
     <title>Noticias | Motocicletas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/img/racing.ico" type="image/x-icon">
 </head>
@@ -127,8 +129,8 @@
             </section>
         </main>
         <footer class="footer">
-            <section class="info-footer">
-                <div class="preguntas-footer">
+            <section class="info-footer container-fluid d-flex-sm-col d-flex-md-col">
+                <div class="preguntas container-fluid d-flex justify-content-center align-content-center">
                     <h3>
                         información
                     </h3>
@@ -143,23 +145,31 @@
                         <li><a href="../pages/mas-de-nosotros.html">politicas de seguridad</a></li>
                     </ul>
                 </div>
-                <div class="buscador-footer">
-                    <form action="" class="navbar-footer">
-                        <legend><strong>suscribite a nuestras novedades</strong></legend>
-                        <label for="email"> e-mail:</label>
-                        <input type="email" id="email" placeholder="Ingresa email" required>
-                        <input type="submit">
+                <div class="buscador-footer mx-auto p-2 text-center container-fluid d-flex-col d-inline-flex justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center">
+                    <form class=formulario-footer style="width:100%">
+                        <div class="mb-3 p-3 text-bg-secondary text-black border border-black">
+                            <label for="exampleInputEmail1" class="form-label">suscribite a nuestras novedades</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            <button type="submit" class="btn btn-primary">enviar</button>
+                        </div>
                     </form>
                 </div>
             </section>
-            <div>
-                <a href="../pages/mas-de-nosotros.html"><img class="logo-w" src="../assets/img/logo-w-color.png" alt=""></a>
+            <div class="logo-w">
+                <a href="../pages/mas-de-nosotros.html"><img src="../assets/img/logo-w-color.png" alt=""></a>
             </div>
-            <div>
+            <div class="pie-de-pagina">
                 <p>© copyright derechos reservados del autor</p>
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

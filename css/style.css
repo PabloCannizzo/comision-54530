@@ -694,21 +694,21 @@ p {
   .footer .info-footer {
     display: grid;
     grid-template-columns: repeat(2 50%);
-    grid-template-rows: none;
-    grid-template-areas: "preguntas, buscador-marcas";
+    grid-template-rows: 1fr;
+    grid-template-areas: "preguntas buscador-footer";
     justify-content: none;
     align-items: none;
     gap: none;
     width: 100%;
     height: 100%; }
-    .footer .info-footer .preguntas-footer {
+    .footer .info-footer .preguntas {
       grid-area: preguntas;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       list-style: none;
       font-weight: 200; }
-      .footer .info-footer .preguntas-footer h3 {
+      .footer .info-footer .preguntas h3 {
         color: beige;
         text-transform: capitalize;
         font-size: 3.4rem;
@@ -722,7 +722,7 @@ p {
         text-transform: capitalize;
         text-align: left;
         padding: 0.3rem 0rem 0.3rem 2rem; }
-      .footer .info-footer .preguntas-footer .listado-footer {
+      .footer .info-footer .preguntas .listado-footer {
         display: flex;
         flex-direction: column;
         justify-content: none;
@@ -732,14 +732,14 @@ p {
         text-decoration: none;
         list-style: none;
         text-shadow: 0.2rem 0.3rem 0.2rem #5c4732; }
-        .footer .info-footer .preguntas-footer .listado-footer li a {
+        .footer .info-footer .preguntas .listado-footer li a {
+          text-decoration: none;
+          color: black;
           color: black;
           padding: 0.8rem 0rem 0.5rem 0rem;
-          font-size: 1.6rem;
-          text-decoration: none;
-          color: black; }
+          font-size: 1.6rem; }
     .footer .info-footer .buscador-footer {
-      grid-area: buscador-marcas;
+      grid-area: buscador-footer;
       display: flex;
       flex-direction: row;
       font-size: 2rem;
@@ -748,6 +748,8 @@ p {
       align-items: center;
       /* padding-right: 2rem; */ }
   .footer .logo-w img {
+    text-decoration: none;
+    color: black;
     width: 5rem;
     height: 5rem;
     position: fixed;
@@ -1485,7 +1487,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2 50%);
     grid-template-rows: 1fr;
-    grid-template-areas: "preguntas, buscador-footer";
+    grid-template-areas: "preguntas buscador-footer";
     justify-content: none;
     align-items: none;
     gap: none;

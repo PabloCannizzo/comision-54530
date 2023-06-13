@@ -3,8 +3,8 @@
     text-transform: capitalize;
     border-top: 0.2rem solid rgba(0, 0, 0, 0.221);
     .info-footer {
-        @include grid(repeat(2 50%), none, "preguntas, buscador-marcas", none, none, none, 100%, 100%);
-        .preguntas-footer {
+        @include grid(repeat(2 50%),1fr, "preguntas buscador-footer", none, none, none, 100%, 100%);
+        .preguntas{
             grid-area: preguntas;
             display: flex;
             flex-direction: column;
@@ -25,16 +25,16 @@
                 text-shadow: 0.2rem 0.3rem 0.2rem rgb(92, 71, 50);
                 li {
                     a {
+                        @include etiqueta-ancla;
                         color: $color-listado-footer;
                         padding: 0.8rem 0rem 0.5rem 0rem;
                         font-size: 1.6rem;
-                        @include etiqueta-ancla;
                     }
                 }
             }
         }
         .buscador-footer {
-            grid-area: buscador-marcas;
+            grid-area: buscador-footer;
             display: flex;
             flex-direction: row;
             font-size: 2rem;
@@ -46,6 +46,7 @@
     }
     .logo-w {
         img {
+            @include etiqueta-ancla;
             width: 5rem;
             height: 5rem;
             position: fixed;

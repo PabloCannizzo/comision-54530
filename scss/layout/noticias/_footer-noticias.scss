@@ -3,7 +3,7 @@
     text-transform: capitalize;
     border-top: 0.2rem solid rgba(0, 0, 0, 0.221);
     .info-footer {
-        @include grid(repeat(2 50%), 1fr, "preguntas, buscador-footer", none, none, none, 100%, 100%);
+        @include grid(repeat(2 50%),1fr, "preguntas buscador-footer", none, none, none, 100%, 100%);
         .preguntas{
             grid-area: preguntas;
             display: flex;
