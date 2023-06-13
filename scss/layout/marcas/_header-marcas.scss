@@ -1,0 +1,39 @@
+.marcas-header{
+    padding: 0.6rem;
+    box-shadow: 0rem 0rem 0.2rem 0rem;
+    @include flex(row,space-between,center,0rem,wrap);
+    div{
+        h1{
+            @include caract-h1;
+            color: $color-h1;
+        }
+    }
+    div{
+        nav{
+            .marcas-navbar {
+                font-size: 1.8rem;
+                @include flex(row,space-between,center,2rem,wrap);
+                list-style: none;
+                    li{
+                        a{
+                            @include etiqueta-ancla;
+                            color: beige;
+                            font-weight: 500;
+                            text-shadow: 0.2rem 0.2rem 0.2rem rgb(147, 103, 58);
+                        }
+                    }
+                }
+            }
+        }
+    div{
+        .busqueda-marcas {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            justify-content: center;
+            padding: 0rem 2rem 0rem 0rem;
+        }
+    }
+}
+
+

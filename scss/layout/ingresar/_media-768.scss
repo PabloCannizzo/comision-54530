@@ -1,0 +1,52 @@
+@media(max-width:768px){
+    .logo-mdn-ingresar{
+        display: none;
+    }
+    .logo-ingresar-ingresar{
+        display: none;
+    }
+    .atajo-de-ing-ing{
+        display: none;
+    }
+    .ingresar-header img{
+        display: flex;
+        flex-direction: row;
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 2rem;
+        background-color: rgba(255, 255, 255, 0.303);
+        object-fit: contain;
+        justify-items: center;
+        align-items: center;
+        padding: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .ingresar-header{
+        gap: 1.2rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+    .titulo-ingresar h1 a{
+        font-size: 5.2rem;
+        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+    }
+    .ingresar-navbar a{
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
+    }
+    .mx-auto{
+        width: 80%;
+    }
+    .btn{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+}

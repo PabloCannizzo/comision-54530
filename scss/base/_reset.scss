@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    /* 10px = 1 rem*/
+}
+header {
+    /* padding: 0rem 0rem 0.5rem 2rem; */
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    border: 0.2rem solid rgba(0, 0, 0, 0.818);
+    font-size: 1.6rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    background-image: url(../assets/img/fondo-header-3.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+h1 a {
+    color: rgb(241, 121, 121);
+}
+p {
+    font-size: 1.8rem;
+    text-indent: 1.2rem;
+    font-family: 'Kanit', sans-serif;
+    /*padding: 0px 5px 0px 5px;*/
+    word-spacing: 0.35rem;
+    line-height: 2.5rem;
+    align-items: normal;
+}

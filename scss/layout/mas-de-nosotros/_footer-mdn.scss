@@ -1,0 +1,73 @@
+.footer {
+    background-color: $color-fondo-footer;
+    text-transform: capitalize;
+    border-top: 0.2rem solid rgba(0, 0, 0, 0.221);
+    .info-footer {
+        @include grid(repeat(2 1fr), none, "preguntas, buscador-marcas", none, none, none, 100%, 100%);
+        .preguntas{
+            grid-area: preguntas;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            list-style: none;
+            font-weight: 200;
+            h3 {
+                @include caract-h3;
+                color: black;
+                text-transform: capitalize;
+                text-align: left;
+                padding: 0.3rem 0rem 0.3rem 2rem;
+            }
+            .listado-footer {
+                @include flex(column, none, none, 1.5rem, none);
+                text-decoration: none;
+                list-style: none;
+                text-shadow: 0.2rem 0.3rem 0.2rem rgb(92, 71, 50);
+                li {
+                    a {
+                        color: $color-listado-footer;
+                        padding: 0.8rem 0rem 0.5rem 0rem;
+                        font-size: 1.6rem;
+                        @include etiqueta-ancla;
+                    }
+                }
+            }
+        }
+        .buscador-marcas {
+            grid-area: buscador-marcas;
+            display: flex;
+            flex-direction: row;
+            font-size: 2rem;
+            text-transform: capitalize;
+            justify-content: center;
+            align-items: center;
+            /* padding-right: 2rem; */
+        }
+    }
+    .logo-w {
+        @include etiqueta-ancla;
+        img {
+            width: 5rem;
+            height: 5rem;
+            position: fixed;
+            right: 3rem;
+            bottom: 5rem;
+            }
+    }
+    .pie-de-pagina {
+        p {
+            text-align: center;
+            font-family: 'Rancho', cursive;
+            text-decoration: double;
+            text-indent: 1.2rem;
+            text-transform: capitalize;
+            background-color: $color-fondo-pie-de-pag;
+            font-size: 1.8rem;
+            border: $borde-color;
+            color: beige;
+            word-spacing: 0.35rem;
+            line-height: 2.5rem;
+            align-items: normal;
+            }
+    }
+}

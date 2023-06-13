@@ -1,0 +1,92 @@
+/* MIXIN = ES UNBLOQUE DE CODIGO QUE PODEMOS GENERAR Y REPETIR A LO LARGO DEL PROYECTO */
+@mixin flex($direction,$content,$align,$gap,$wrap){
+    display: flex;
+    flex-direction:$direction ;
+    justify-content:$content ;
+    align-items:$align;
+    gap:$gap;
+    flex-wrap:$wrap;
+}
+
+@mixin box-model($padding,$border,$border-radius,$margin){
+    padding:$padding ;
+    border:$border ;
+    border-radius:$border-radius ;
+    margin:$margin ;
+}
+@mixin grid($col,$row,$area,$content,$align,$gap,$width,$height){
+    display: grid;
+    grid-template-columns:$col ;
+    grid-template-rows: $row;
+    grid-template-areas: $area;
+    justify-content: $content;
+    align-items: $align;
+    gap: $gap;
+    width: $width;
+    height:$height;
+}
+
+@mixin hero($width,$heigth,$bg-repeat,$bg-size,$bg-position){
+    width: $width;
+    height: $heigth;
+    background-repeat: $bg-repeat;
+    background-size: $bg-size;
+    background-position: $bg-position;
+}
+
+@mixin etiqueta-ancla{
+    text-decoration: none; 
+    color: black;
+}
+@mixin caract-h1{
+    text-transform: uppercase;
+    font-family: Fuente-h1;
+    font-size: 6rem;
+    letter-spacing: 0.4rem;
+    font-weight: 50;
+    padding: 0rem 0rem 0rem 2rem;
+    text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+    /* text-shadow: 0px 3px 0px; */
+    /*font-family: 'Fascinate Inline', cursive;*/
+    /*font-size: 2.2rem;*/
+    /*letter-spacing: 1.5px;*/
+    /* font-family: 'Faster One', cursive;
+    letter-spacing: 2.5px;
+    font-size: 2.2rem; */
+}
+@mixin caract-h2{
+color: $color-h2;
+letter-spacing: 0.15rem;
+text-transform: uppercase;
+text-align: center;
+text-decoration: underline;
+font-size: 3.5rem;
+font-family: 'Fascinate Inline', cursive;
+padding: 1.5rem 0rem 1rem 0rem;
+}
+
+@mixin caract-h3{
+    color: $color-h3;
+    text-transform: capitalize;
+    font-size: 3.4rem;
+    text-align: center;
+    letter-spacing: 0.35rem;
+    font-family: Fuente-h1;
+    padding: 1rem 0rem 1rem 0rem;
+    text-shadow: 0.4rem 0.2rem 0.2rem rgb(92, 71, 50);
+    /*font-family: 'Rancho', cursive;*/
+}
+@mixin caract-h4{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Kanit', sans-serif;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    letter-spacing: 0.15rem;
+    text-decoration: underline;
+    align-content: center;
+    /*font-family: 'Rancho', cursive;*/
+    /*font-family: 'Kanit', sans-serif;*/
+}
+@mixin caract-label{
+    text-transform: capitalize;
+}

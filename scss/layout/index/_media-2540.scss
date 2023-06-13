@@ -1,0 +1,26 @@
+@media (max-width:2570px) {
+    .index-header img {
+        display: none;
+    }
+
+    .info-footer {
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "preguntas-footer buscador-footer";
+        margin-bottom: 1rem;
+    }
+
+    .preguntas-footer {
+        grid-area: preguntas-footer;
+        justify-content: left;
+    }
+
+    .buscador-footer {
+        grid-area: buscador-footer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

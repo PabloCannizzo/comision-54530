@@ -1,0 +1,65 @@
+.ingresar-hero{
+    background-image: url(../assets/img/fondo-header.jpg);
+    @include hero(100%,100%,no-repeat,cover,center);
+    .ingresar-main {
+        .mb-3{
+            font-size: 2rem;
+            text-transform: capitalize;
+            .titulo{
+                h2{
+                    color: rgb(155, 51, 155);
+                    @include caract-h2;
+                }
+            }
+            .formulario{
+                width: 65%;
+                @include flex(column,center,center,0rem,wrap);
+                .pb-3{
+                    width: 100%;
+                    .mb-2{
+                        label{
+                            font-size: 1.7rem;
+                        }
+                        .emailHelp{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    button{
+                        text-transform: uppercase;
+                        font-size: 1rem;
+                    }
+                }
+                a{
+                text-decoration: underline;
+                font-size: 1.5rem;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+            }
+        }
+        .m-3{
+            padding: 2rem 0rem 2rem 0rem;
+            color: beige;
+            text-transform: capitalize;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .intro{
+                text-align: center;
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                color: beige;
+                letter-spacing: 0.1rem;
+            }
+            .mb-3{
+                width: 65%;
+                label{
+                    font-size: 1.7rem;
+                    }
+            }
+        }
+    }
+}

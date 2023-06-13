@@ -1,0 +1,72 @@
+.noticias-main {
+    /*background-color: rgba(0, 0, 0, 0.558);*/
+    color: beige;
+    div{
+        h2{
+            @include caract-h2;
+        }
+        h3{
+            @include caract-h3;
+        }
+    }
+    .seccion-noticias {
+        padding-top: 2rem;
+        div{
+            .noticia-1 {
+                margin: 1rem 2rem 3rem 2rem;
+                padding: 2rem;
+                background-color: rgba(0, 0, 0, 0.648);
+                border: 0.2rem solid rgba(0, 0, 0, 0.221);
+                border-radius: 0.8rem;
+                box-shadow: 0rem 0rem 1.5rem 0rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                div{
+                    h4{
+                        @include caract-h4;
+                    }
+                }
+            }
+        }
+        div{
+            .noticia-2 {
+                margin: 0rem 2rem 0rem 2rem;
+                padding: 2rem 0.1rem 0.1rem 2rem;
+                background-color: rgba(0, 0, 0, 0.648);
+                border: 0.2rem solid rgba(0, 0, 0, 0.532);
+                border-radius: 0.8rem;
+                box-shadow: 0rem 0rem 1.5rem 0rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 2rem;
+                div{
+                    h4{
+                        @include caract-h4;
+                    }
+                }
+            }
+        }
+        .boton-ver-mas {
+            padding: 4rem 0rem 4rem 0rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .ver-mas {
+                background-color: rgb(57, 57, 136);
+                font-size: 2.5rem;
+                padding: 0.5rem 2rem 0.5rem 2rem;
+                text-transform: uppercase;
+                border-radius: 2rem;
+                box-shadow: 0rem 0rem 0.4rem 0rem;
+                a{
+                    @include etiqueta-ancla;
+                }
+            }
+        }
+    }
+}

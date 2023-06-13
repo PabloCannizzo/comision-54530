@@ -1,0 +1,29 @@
+@media(max-width:2590px){
+    .logo-mdn-ingresar{
+        display: none;
+    }
+    .logo-ingresar-ingresar{
+        display: none;
+    }
+    .titulo-ingresar h1 a{
+        font-size: 5.2rem;
+        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+    }
+    .ingresar-navbar a{
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .btn{
+        text-transform: uppercase;
+    }
+    .mx-auto{
+        width: 80%;
+    }
+}

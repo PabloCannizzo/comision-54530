@@ -1,0 +1,83 @@
+@media(max-width:375px){
+
+    .buscador-ingresar{
+        display: none;
+    }
+    .atajo-de-ing-ing{
+        display: none;
+    }
+    .atajo-mdn-ingresar{
+        display: none;
+    }
+    .logo-mdn-ingresar{
+        display: inline;
+    }
+    .ingresar-header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .navbar-ingresar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.325);
+        border-radius: 0.8rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .titulo-ingresar h1 a{
+        font-size: 5rem;
+        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
+    }
+    .ingresar-navbar{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .ingresar-header a{
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .ingresar-navbar a{
+        font-size: 1rem;
+    }
+    .ingresar-navbar a{
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
+    }
+    .btn{
+        text-transform: uppercase;
+    }
+    .formulario-footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .logo-w {
+        width: 5rem;
+        height: 5rem;
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .ingresar-header img{
+        display: flex;
+        flex-direction: row;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+        background-color: rgba(255, 255, 255, 0.303);
+        object-fit: contain;
+        justify-items: center;
+        align-items: center;
+        padding: 0.3rem;
+    }
+    
+}

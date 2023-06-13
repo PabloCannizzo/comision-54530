@@ -1,0 +1,222 @@
+.mas-de-nosotros-main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(31fr);
+    grid-template-areas: none
+        "h2-mdn"
+        "h3-mdn"
+        "img-logos";
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    h3{
+        strong {
+            background-color: rgba(0, 0, 0, 0.379);
+            color: beige;
+        }
+    }
+    .mas-de-nosotros-logo{
+        .h2-mdn {
+            grid-area: h2-mdn;
+            font-size: 2.5rem;
+            color: rgb(155, 51, 155);
+            margin: 2rem;
+            h2{
+                @include caract-h2;
+            }
+        }
+        .h3-mdn {
+            grid-area: h3-mdn;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            h3{
+                @include caract-h3;
+            }
+        }
+        .img-logos {
+            grid-area: img-logos;
+            display: grid;
+            grid-template-columns: repeat(3 1fr);
+            grid-template-rows: repeat(2 1fr);
+            grid-template-areas:
+                "img-1 img-2 img-3"
+                "img-4 img-5 .";
+            justify-content: space-evenly;
+            align-content: center;
+            object-fit: contain;
+            gap: 5rem;
+            img{
+                width: 35rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 3rem;
+                border-radius: 37rem;
+                background-color: rgba(255, 255, 255, 0.479);
+            }
+            .img-3 {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+            }
+        }
+    }
+    .contacto{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-areas:
+        "h3-contacto-mdn"
+        "info-mdn"
+        ;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        .h3-contacto-mdn {
+            grid-area: h3-contacto-mdn;
+            h3{
+                @include caract-h3;
+                font-size: 4rem;
+            }
+        }
+        .info-mdn {
+            grid-area: info-mdn;
+            .articulo-info{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(2 1fr);
+                grid-template-rows: repeat(2 1fr);
+                grid-template-areas:
+                "img-1-info img-2-info"
+                "img-3-info img-4-info";
+                gap: 4rem;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 10rem;
+                    height: 10rem;
+                }
+                .img-1-info {
+                    background-color: rgba(255, 255, 255, 0.375);
+                    border-radius: 3rem;
+                    padding: 1rem;
+                    grid-area: img-1-info;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        grid-area: img-1-info;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .img-2-info {
+                    padding: 1rem;
+                    background-color: rgba(255, 255, 255, 0.375);
+                    border-radius: 3rem;
+                    grid-area: img-2-info;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        grid-area: img-2-info;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .img-3-info {
+                    padding: 1rem;
+                    background-color: rgba(255, 255, 255, 0.375);
+                    border-radius: 3rem;
+                    grid-area: img-3-info;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        grid-area: img-3-info;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .img-4-info {
+                    padding: 1rem;
+                    background-color: rgba(255, 255, 255, 0.375);
+                    border-radius: 3rem;
+                    grid-area: img-4-info;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        width: 24rem;
+                        grid-area: img-4-info;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                }
+                
+            }
+        }
+    }
+    .preguntas-mdn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            h3 {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                margin-top: 2rem;
+                @include caract-h3;
+            }
+        }
+        div{
+            text-decoration: none;
+            width: 50%;
+            .link-preguntas {
+                list-style: none;
+                background-color: rgba(255, 255, 255, 0.375);
+                border-radius: 3rem;
+                padding: 2rem;
+                margin: 2rem 0rem 4rem 0rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .preg1{
+                    text-decoration: none;
+                    @include etiqueta-ancla;
+                    h4{
+                        @include caract-h4;
+                        a{
+                            color: black;
+                            text-shadow: 0.1rem 0.1rem 0.1rem coral;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .preg2{
+                    @extend .preg1;
+                }
+                .preg3{
+                    @extend .preg1;
+                }
+                .preg4{
+                    @extend .preg1;
+                }
+            }
+        }
+    }
+}

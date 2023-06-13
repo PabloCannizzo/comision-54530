@@ -1,0 +1,39 @@
+@media (max-width:375px) {
+    .index-header {
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
+        grid-template-rows: repeat(3 1fr);
+        grid-area: auto ". titulo ."
+            ". index-navbar ."
+            "buscador logo-mdn logo-ingresar-index"
+        ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .atajo-mdn {
+        display: none;
+    }
+
+    .index-navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .info-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-bottom: 1rem;
+    }
+
+    .buscador-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+}

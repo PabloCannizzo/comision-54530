@@ -1,0 +1,182 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./base/reset";
+@import "./base/typo";
+@import "./utilities/funciones";
+@import "./components/boostrap";
+@import "./components/botones";
+
+@import "./layout/index/header-index";
+@import "./layout/index/main-index";
+@import "./layout/index/footer-index";
+
+
+@import "./layout/marcas/header-marcas";
+@import "./layout/marcas/main-marcas";
+@import "./layout/marcas/footer-marcas";
+
+@import "./layout/ingresar/header-ingresar";
+@import "./layout/ingresar/main-ingresar";
+@import "./layout/ingresar/footer-ingresar";
+
+
+@import "./layout/eventos/header-eventos";
+@import "./layout/eventos/main-eventos";
+@import "./layout/eventos/footer-eventos";
+
+@import "./layout/mas-de-nosotros/header-mdn";
+@import "./layout/mas-de-nosotros/main-mdn";
+@import "./layout/mas-de-nosotros/footer-mdn";
+
+@import "./layout/noticias/header-noticias";
+@import "./layout/noticias/main-noticias";
+@import "./layout/noticias/footer-noticias";
+
+@import "./layout/index/media-2540";
+@import "./layout/index/media-1440";
+@import "./layout/index/media-1024";
+@import "./layout/index/media-768";
+@import "./layout/index/media-425";
+@import  "./layout/index/media-375";
+@import "./layout/index/media-320";
+
+@import "./layout/ingresar/media-2520";
+@import "./layout/ingresar/media-1440";
+@import "./layout/ingresar/media-1024";
+@import "./layout/ingresar/media-768";
+@import "./layout/ingresar/media-375";
+@import "./layout/ingresar/media-320";
+
+
+
+/*CSS DE PAGINAS EN GENERAL*/
+
+/*------------------------INDEX----------------------*/
+
+
+.index-hero {
+    background-image: url(../assets/img/fondo-header.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*-----------------------NOTICIAS----------------------*/
+
+.noticias-hero {
+    background-image: url(../assets/img/fondo-header.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*----------------------INGRESAR---------------------*/
+
+
+/* .ingresar-main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+        "titulo"
+        "formulario"
+    ;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    gap: 4rem;
+} */
+
+/* .titulo {
+    grid-area: titulo;
+}
+
+.formulario {
+    grid-area: formulario;
+} */
+
+/* .form {
+    background-color: rgba(255, 255, 255, 0.375);
+    border-radius: 2.2rem;
+    padding: 2rem;
+    padding: 4rem;
+} */
+
+/* .form label {
+    font-size: 1.8rem;
+}
+
+.form fieldset legend {
+    font-size: 1.8rem;
+}
+
+.titulo h2 {
+    margin: 1rem;
+}
+
+.ingresar-main a {
+    color: rgb(151, 2, 151);
+    text-decoration: underline;
+    font-size: 3rem;
+} */
+
+
+/*----------------------EVENTOS----------------------*/
+
+.eventos-hero {
+    background-image: url(../assets/img/fondo-eventos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-----------------------MARCAS--------------------*/
+
+.marcas-hero {
+    background-image: url(../assets/img/fondo-header.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* -------------------mas de nosotros--------------------*/
+
+
+.mas-de-nosotros-hero {
+    background-image: url(../assets/img/fondo-header.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/*--------------------****-------------------*/
+
+
+/* AQUI EMPIEZA MEDIA QUERY DE INDEX.HTML*/
+
+/*---------------media query de pag ingresar-----------------*/
+
+
+/* HASTA AQUI ES RESPONDIVE DE PAGINA INDEX */

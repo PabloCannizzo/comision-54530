@@ -1,0 +1,39 @@
+.ingresar-header{
+    padding: 0.6rem;
+    box-shadow: 0rem 0rem 0.2rem 0rem;
+    @include flex(row,space-between,center,0rem,wrap);
+    div{
+        h1{
+            @include caract-h1;
+            a{
+                color: $color-h1;
+            }
+        }
+    }
+    .navbar-ingresar{
+        nav{
+            .ingresar-navbar {
+                font-size: 1.8rem;
+                @include flex(row,space-between,center,2rem,wrap);
+                list-style: none;
+                    li{
+                        a{
+                            @include etiqueta-ancla;
+                            color: beige;
+                            font-weight: 500;
+                            text-shadow: 0.2rem 0.2rem 0.2rem rgb(147, 103, 58);
+                        }
+                    }
+                }
+            }
+        }
+    .buscador-ingresar{
+        .busqueda-ingresar {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            justify-content: center;
+            padding: 0rem 2rem 0rem 0rem;
+        }
+    }
+}
