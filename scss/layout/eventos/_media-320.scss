@@ -1,0 +1,22 @@
+@media(max-width:320px){
+    .footer{
+        .info-footer{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-items: center;
+        }
+    }
+}
+    .logo-w {
+        width: 3rem;
+        height: 3rem;
+    }
+    .footer h3{
+        color: black;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }
+    .listado-footer{
+        font-weight: 400;
+        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    }

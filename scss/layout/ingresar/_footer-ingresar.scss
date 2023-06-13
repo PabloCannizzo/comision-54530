@@ -44,15 +44,15 @@
             /* padding-right: 2rem; */
         }
     }
-    .logo-w {
-        img {
+    .logotipo{
+        .logo-w {
             @include etiqueta-ancla;
             width: 5rem;
             height: 5rem;
             position: fixed;
             right: 3rem;
             bottom: 5rem;
-            }
+        }
     }
     .pie-de-pagina {
         p {
