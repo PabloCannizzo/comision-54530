@@ -496,88 +496,23 @@ p {
         border-radius: 2rem;
         box-shadow: 0rem 0rem 0.4rem 0rem; }
 
-.footer {
-  background-color: rgba(128, 128, 128, 0.388);
-  text-transform: capitalize;
-  border-top: 0.2rem solid rgba(0, 0, 0, 0.221); }
-  .footer .info-footer {
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-template-rows: none;
-    grid-template-areas: "preguntas, buscador-marcas";
-    justify-content: none;
-    align-items: none;
-    gap: none;
-    width: 100%;
-    height: 100%; }
-    .footer .info-footer .preguntas {
-      grid-area: preguntas;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      list-style: none;
-      font-weight: 200; }
-      .footer .info-footer .preguntas h3 {
-        color: beige;
-        text-transform: capitalize;
-        font-size: 3.4rem;
-        text-align: center;
-        letter-spacing: 0.35rem;
-        font-family: Fuente-h1;
-        padding: 1rem 0rem 1rem 0rem;
-        text-shadow: 0.4rem 0.2rem 0.2rem #5c4732;
-        /*font-family: 'Rancho', cursive;*/
-        color: black;
-        text-transform: capitalize;
-        text-align: left;
-        padding: 0.3rem 0rem 0.3rem 2rem; }
-      .footer .info-footer .preguntas .listado-footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: none;
-        align-items: none;
-        gap: 1.5rem;
-        flex-wrap: none;
-        text-decoration: none;
-        list-style: none;
-        text-shadow: 0.2rem 0.3rem 0.2rem #5c4732; }
-        .footer .info-footer .preguntas .listado-footer li a {
-          color: black;
-          padding: 0.8rem 0rem 0.5rem 0rem;
-          font-size: 1.6rem;
-          text-decoration: none;
-          color: black; }
-    .footer .info-footer .buscador-marcas {
-      grid-area: buscador-marcas;
-      display: flex;
-      flex-direction: row;
-      font-size: 2rem;
-      text-transform: capitalize;
-      justify-content: center;
-      align-items: center;
-      /* padding-right: 2rem; */ }
-  .footer .logo-w {
-    text-decoration: none;
-    color: black; }
-    .footer .logo-w img {
-      width: 5rem;
-      height: 5rem;
-      position: fixed;
-      right: 3rem;
-      bottom: 5rem; }
-  .footer .pie-de-pagina p {
-    text-align: center;
-    font-family: 'Rancho', cursive;
-    text-decoration: double;
-    text-indent: 1.2rem;
-    text-transform: capitalize;
-    background-color: rgba(0, 0, 0, 0.682);
-    font-size: 1.8rem;
-    border: 0.2rem solid rgba(0, 0, 0, 0.818);
-    color: beige;
-    word-spacing: 0.35rem;
-    line-height: 2.5rem;
-    align-items: normal; }
+.footer .container .pt-4 .row .col-6 {
+  width: auto; }
+  .footer .container .pt-4 .row .col-6 h5 {
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(210, 105, 30, 0.7); }
+  .footer .container .pt-4 .row .col-6 .nav .nav-item {
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(210, 105, 30, 0.7); }
+
+.footer .container .pt-4 .row .col-md-5 {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 5rem; }
+  .footer .container .pt-4 .row .col-md-5 form {
+    width: 100%; }
 
 .ingresar-header {
   padding: 0.6rem;
