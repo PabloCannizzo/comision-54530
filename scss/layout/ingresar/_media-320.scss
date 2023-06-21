@@ -1,73 +1,40 @@
 @media (max-width:320px) {
-    .ingresar-header {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        gap: 1rem;
-        padding-bottom: 0.5rem;
-        padding: 1rem;
+    .container-fluid{
+        width: 100%;
+        padding: 0rem;
+        .d-flex{
+            .col-md-3{
+                .d-inline-flex{
+                    @include caract-h1;
+                    color: $color-h1;
+                    font-size: 4.5rem;
+                }
+            }
+            .nav{
+                li{
+                    a{
+                        @include etiqueta-ancla;
+                        color: beige;
+                        text-shadow: 0.2rem 0.2rem 0.2rem rgb(167, 122, 77);
+                    }
+                }
+            }
+        }
     }
-
-    .atajo-de-ing-ing {
-        display: none;
-    }
-
-    .atajo-mdn-ingresar {
-        display: none;
-    }
-
-    .titulo-ingresar h1 {
-        font-size: 4rem;
-        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ingresar-navbar a {
-        font-size: 1rem;
-    }
-
-    .ingresar-navbar {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        border-radius: 0.8rem;
-        padding: 0.5rem;
-    }
-
-    .ingresar-navbar img {
-        display: flex;
-        width: 2rem;
-        height: 2rem;
-        border-radius: 2rem;
-        background-color: rgba(255, 255, 255, 0.303);
-        object-fit: contain;
-        justify-items: center;
-        align-items: center;
-        align-items: center;
-        padding: 0.5rem;
-    }
-
-    .buscador-ingresar {
-        display: none;
-    }
-
-    .btn{
-        text-transform: uppercase;
-    }
-
-    .logo-w {
-        width: 3rem;
-        height: 3rem;
-    }
-    .footer h3{
-        color: black;
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
-    }
-    .listado-footer{
-        font-weight: 400;
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
+    .footer{
+        .container{
+            .pt-4{
+                .logo-w{
+                    display: block;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    overflow-x: hidden;
+                    object-fit: contain;
+                    position: fixed;
+                    right: 2rem;
+                    bottom: 3rem;
+                }
+            }
+        }
     }
 }

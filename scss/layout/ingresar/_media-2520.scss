@@ -1,29 +1,31 @@
-@media(max-width:2590px){
-    .logo-mdn-ingresar{
-        display: none;
-    }
-    .logo-ingresar-ingresar{
-        display: none;
-    }
-    .titulo-ingresar h1 a{
-        font-size: 5.2rem;
-        text-shadow: 0.4rem 0.3rem 0.3rem rgb(167, 1, 173);
-    }
-    .ingresar-navbar a{
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(237, 129, 21);
-    }
-    .footer h3{
-        color: black;
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
-    }
-    .listado-footer{
-        font-weight: 400;
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
-    }
-    .btn{
-        text-transform: uppercase;
-    }
-    .mx-auto{
-        width: 80%;
+@media(max-width:2520px) {
+    .container-fluid {
+        width: 100%;
+        padding: 0rem;
+        .d-flex {
+            .col-md-3 {
+                .d-inline-flex {
+                    @include caract-h1;
+                    color: $color-h1;
+                    font-size: 5.5rem;
+                    padding-left: 2.8rem;
+                }
+            }
+            .nav {
+                display: flex;
+                gap: 1rem;
+                li {
+                    a {
+                        font-size: 1.75rem;
+                        @include etiqueta-ancla;
+                        color: beige;
+                        text-shadow: 0.2rem 0.2rem 0.2rem rgb(167, 122, 77);
+                    }
+                }
+            }
+            .buscador-ingresar{
+                padding-right: 2.8rem;
+            }
+        }
     }
 }

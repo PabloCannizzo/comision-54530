@@ -1,72 +1,53 @@
-.footer {
+.footer{
     background-color: $color-fondo-footer;
-    text-transform: capitalize;
     border-top: 0.2rem solid rgba(0, 0, 0, 0.221);
-    .info-footer {
-        @include grid(repeat(2 50%), none, "preguntas, buscador-marcas", none, none, none, 100%, 100%);
-        .preguntas-footer {
-            grid-area: preguntas;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            list-style: none;
-            font-weight: 200;
-            h3 {
-                @include caract-h3;
-                color: black;
-                text-transform: capitalize;
-                text-align: left;
-                padding: 0.3rem 0rem 0.3rem 2rem;
-            }
-            .listado-footer {
-                @include flex(column, none, none, 1.5rem, none);
-                text-decoration: none;
-                list-style: none;
-                text-shadow: 0.2rem 0.3rem 0.2rem rgb(92, 71, 50);
-                li {
-                    a {
-                        color: $color-listado-footer;
-                        padding: 0.8rem 0rem 0.5rem 0rem;
-                        font-size: 1.6rem;
-                        @include etiqueta-ancla;
+    .container{
+        .pt-4{
+            .row{
+                .col-6{
+                    width: auto;
+                    h5{
+                        color: black;
+                        font-size: 2rem;
+                        text-shadow: 0.2rem 0.2rem 0.2rem rgba(210, 105, 30, 0.7);
+                    }
+                    .nav{
+                        list-style: none;
+                        text-decoration: none;
+                        .nav-item{
+                            font-size: 1.5rem;
+                            text-shadow: 0.2rem 0.2rem 0.2rem rgba(210, 105, 30, 0.7);
+                        }
+                    }
+                }
+                .col-md-5{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-content: center;
+                    padding-top: 5rem;
+                    h5{
+                        color: black;
+                        font-size: 1.5rem;
+                        text-shadow: 0.2rem 0.2rem 0.2rem rgba(210, 105, 30, 0.7);
+                    }
+                    form{
+                        width: 100%;
                     }
                 }
             }
-        }
-        .buscador-footer {
-            grid-area: buscador-marcas;
-            display: flex;
-            flex-direction: row;
-            font-size: 2rem;
-            text-transform: capitalize;
-            justify-content: center;
-            align-items: center;
-            /* padding-right: 2rem; */
+            .container-fluid{
+                p{
+                    color: black;
+                }
+            }
         }
     }
-    .logo-w {
-        img {
-            width: 5rem;
-            height: 5rem;
+    .logo-w{
+        @include etiqueta-ancla;
+            width: 4.5rem;
+            height: 4.5rem;
             position: fixed;
             right: 3rem;
             bottom: 5rem;
-            }
-    }
-    .pie-de-pagina {
-        p {
-            text-align: center;
-            font-family: 'Rancho', cursive;
-            text-decoration: double;
-            text-indent: 1.2rem;
-            text-transform: capitalize;
-            background-color: $color-fondo-pie-de-pag;
-            font-size: 1.8rem;
-            border: $borde-color;
-            color: beige;
-            word-spacing: 0.35rem;
-            line-height: 2.5rem;
-            align-items: normal;
-            }
     }
 }
