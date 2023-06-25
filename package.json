@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Este repsitorio contiene todo lo visto en el curso de desarrollo web:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
