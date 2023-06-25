@@ -1,0 +1,90 @@
+@media (max-width:320px) {
+    .mas-de-nosotros-main {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        .mas-de-nosotros-logo{
+            .h2-mdn{
+                h2{
+                    font-size: 2.5rem;
+                    text-align: center;
+                    margin: 0rem
+                }
+            }
+            .h3-mdn{
+                h3{
+                    width: auto;
+                    font-size: 2.5rem;
+                    flex-wrap: wrap;
+                }
+            }
+            .img-logos{
+                .img-1{
+                    width: 10rem;
+                    height: 10rem;
+                    padding: 0.7rem;
+                }
+                .img-2{
+                    width: 10rem;
+                    height: 10rem;
+                    padding: 0.7rem;
+                }
+                .img-3{
+                    width: 10rem;
+                    height: 10rem;
+                    padding: 0.7rem;
+                }
+                .img-4{
+                    width: 10rem;
+                    height: 10rem;
+                    padding: 0.3rem;
+                }
+                .img-5{
+                    width: 10rem;
+                    height: 10rem;
+                    padding: 0.7rem;
+                }
+            }
+        }
+        .contacto{
+            .h3-contacto-mdn{
+                h3{
+                    @include caract-h3;
+                    font-size: 3rem;
+                }
+            }
+            .info-mdn{
+                .articulo-info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .img-1-info{
+                        width: 90%;
+                        flex-wrap: wrap;
+                    }
+                    .img-2-info{
+                        width: 90%;
+                        flex-wrap: wrap;
+                    }
+                    .img-3-info{
+                        width: 90%;
+                        flex-wrap: wrap;
+                    }
+                    .img-4-info{
+                        width:90%;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+        .preguntas-mdn{
+            div{
+                h3{
+                    @include caract-h3;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}

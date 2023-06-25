@@ -1,22 +1,92 @@
 @media(max-width:320px){
-    .footer{
-        .info-footer{
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-items: center;
+    .eventos-main{
+        height: 100%;
+        .eventos-seccion-principal{
+            div{
+                h2{
+                    @include caract-h2;
+                }
+                h3{
+                    @include caract-h3;
+                    font-size: 3rem
+                }
+            }
+            div{
+                .articulo-11{
+                    div{
+                        h4{
+                            @include caract-h4;
+                        }
+                        .parrafo-1{
+                            text-align: center;
+                            font-weight: 200;
+                        }
+                        .parrafo-2{
+                            display: none;
+                        }
+                        .parrafo-3{
+                            display: none;
+                        }
+                    }
+                    a{
+                        @include etiqueta-ancla;
+                        text-decoration: underline;
+                        color: black;
+                        text-align: center;
+                        text-transform: capitalize;
+                        font-size: 1.5rem;
+                        flex-wrap: wrap;
+                    }
+                    img{
+                        width: 25rem;
+                        height: 35rem;
+                    }
+                }
+            }
+            div{
+                .articulo-2{
+                    div{
+                        h4{
+                            @include caract-h4;
+                        }
+                        .parrafo-11{
+                            text-align: center;
+                            font-weight: 200;
+                        }
+                        .parrafo-22{
+                            display: none;
+                        }
+                        .parrafo-33{
+                            display: none;
+                        }
+                        .parrafo-44{
+                            display: none;
+                        }
+                    }
+                    a{
+                        @include etiqueta-ancla;
+                        color: black;
+                        text-decoration: underline;
+                        text-align: center;
+                        text-transform: capitalize;
+                        font-size: 1.5rem;
+                        flex-wrap: wrap;
+                    }
+                    img{
+                        width: 25rem;
+                        height: 37rem;
+                    }
+                }
+            }
+        }
+    }
+    .logo-w {
+        img{
+            width: 4rem;
+            height: 4rem;
+            position: fixed;
+            right: 1rem;
+            bottom: 18rem;
         }
     }
 }
-    .logo-w {
-        width: 3rem;
-        height: 3rem;
-    }
-    .footer h3{
-        color: black;
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
-    }
-    .listado-footer{
-        font-weight: 400;
-        text-shadow: 0.2rem 0.2rem 0.2rem rgb(92, 71, 50);
-    }

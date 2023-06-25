@@ -19,11 +19,11 @@
                 border: 0.2rem solid rgba(0, 0, 0, 0.221);
                 border-radius: 0.8rem;
                 box-shadow: 0rem 0rem 1.5rem 0rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                gap: 2rem;
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: center;
+                // align-items: center;
+                // gap: 2rem;
                 div{
                     h4{
                         @include caract-h4;
@@ -34,15 +34,16 @@
         div{
             .noticia-2 {
                 margin: 0rem 2rem 0rem 2rem;
-                padding: 2rem 0.1rem 0.1rem 2rem;
+                // padding: 2rem 0.1rem 0.1rem 2rem;
+                padding: 2rem;
                 background-color: rgba(0, 0, 0, 0.648);
                 border: 0.2rem solid rgba(0, 0, 0, 0.532);
                 border-radius: 0.8rem;
                 box-shadow: 0rem 0rem 1.5rem 0rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                gap: 2rem;
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: center;
+                // gap: 2rem;
                 div{
                     h4{
                         @include caract-h4;

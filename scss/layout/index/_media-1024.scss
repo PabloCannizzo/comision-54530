@@ -1,49 +1,29 @@
 @media (max-width:1024px) {
-    .logo-mdn {
-        display: none;
+    .index-articulo-1{
+        .articulo1{
+            h4{
+                @include caract-h4;
+                text-align: center;
+            }
+            p{
+                font-size: 1.8rem;
+                text-align: center;
+                padding: 0rem 1rem 0rem 1rem;
+            }
+        }
+        img{
+            width: 50%;
+            height: 50%;
+        }
     }
-
-    .logo-ingresar-index {
-        display: none;
-    }
-
-    .index-header {
-        width: 100%;
-        height: 100%;
-        gap: 1rem;
-    }
-
-    .titulo h1 {
-        font-size: 4.5rem;
-    }
-
-    .index-navbar li a {
-        font-size: 1.5rem;
-    }
-
-    .index-articulo-1 {
-        padding: 1rem;
-    }
-
-
-    .info-footer {
-        display: grid;
-        grid-template-columns: repeat(2 1fr);
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "preguntas-footer buscador-footer";
-        margin-bottom: 1rem;
-    }
-
-    .preguntas-footer {
-        grid-area: preguntas-footer;
-        justify-content: left;
-    }
-
-    .buscador-footer {
-        grid-area: buscador-footer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .index-seccion-secundaria{
+        div{
+            .sitios-web{
+                .logo-google{
+                    border-radius: 5rem;
+                    background-color: $color-fondo-logos;
+                }
+            }
+        }
     }
 }

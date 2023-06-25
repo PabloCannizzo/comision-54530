@@ -56,6 +56,7 @@
 }
 @mixin caract-h2{
 color: $color-h2;
+text-shadow: 0.15rem 0.15rem 0.11rem rgb(200, 246, 63);
 letter-spacing: 0.15rem;
 text-transform: uppercase;
 text-align: center;

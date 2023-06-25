@@ -1,0 +1,22 @@
+@media (max-width:1440px){
+    .mas-de-nosotros-main{
+        .mas-de-nosotros-logo{
+            .h2-mdn{
+                @include caract-h2;
+            }
+            .h3-mdn{
+                @include caract-h3;
+            }
+            .img-logos{
+                gap: 3rem;
+            }
+        }
+        .contacto{
+            .info-mdn{
+                .articulo-info{
+                    gap: 4rem;
+                }
+            }
+        }
+    }
+}

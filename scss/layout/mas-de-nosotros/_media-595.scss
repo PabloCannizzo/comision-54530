@@ -1,0 +1,75 @@
+@media (max-width:595px){
+    .mas-de-nosotros-main{
+        .mas-de-nosotros-logo{
+            .h2-mdn{
+                h2{
+                    @include caract-h2;
+                    font-size: 3rem;
+                }
+            }
+            .h3-mdn{
+                h3{
+                    @include caract-h3;
+                    font-size: 3rem;
+                }
+            }
+            .img-logos{
+                padding: 0rem 5rem 0rem 5rem;
+                .img-1{
+                    width: 14rem;
+                    height: 14rem;
+                    padding: 1rem;
+                }
+                .img-2{
+                    width: 14rem;
+                    height: 14rem;
+                    padding: 1rem;
+                }
+                .img-3{
+                    width: 14rem;
+                    height: 14rem;
+                    padding: 1rem;
+                }
+                .img-4{
+                    width: 14rem;
+                    height: 14rem;
+                    padding: 1rem;
+                }
+                .img-5{
+                    width: 14rem;
+                    height: 14rem;
+                    padding: 1rem;
+                }
+            }
+        }
+        .contacto{
+            .h3-contacto-mdn{
+                h3{
+                    @include caract-h3;
+                    font-size: 3rem;
+                }
+            }
+            .info-mdn{
+                .articulo-info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .img-1-info{
+                        width: auto;
+                        flex-wrap: wrap;
+                    }
+                    .img-2-info{
+                        width: auto;
+                    }
+                    .img-3-info{
+                        width: auto;
+                    }
+                    .img-4-info{
+                        width:auto;
+                    }
+                }
+            }
+        }
+    }
+}

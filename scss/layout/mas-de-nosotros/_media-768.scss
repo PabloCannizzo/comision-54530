@@ -1,0 +1,49 @@
+@media (max-width:768px){
+    .mas-de-nosotros-main{
+        .mas-de-nosotros-logo{
+            .img-logos{
+                gap: 1.5rem;
+                .img-1{
+                    width: 21rem;
+                    height: 21rem;
+                    padding: 1.5rem;
+                }
+                .img-2{
+                    width: 21rem;
+                    height: 21rem;
+                    padding: 1.5rem;
+                }
+                .img-3{
+                    object-fit: contain;
+                    width: 21rem;
+                    height: 21rem;
+                    padding: 1.5rem;
+                }
+                .img-4{
+                    width: 21rem;
+                    height: 21rem;
+                    padding: 1.5rem;
+                }
+                .img-5{
+                    width: 21rem;
+                    height: 21rem;
+                    padding: 1.5rem;
+                }
+            }
+        }
+        .contacto{
+            .h3-contacto-mdn{
+                h3{
+                    @include caract-h3;
+                    font-size: 3.5rem;
+                }
+            }
+            .info-mdn{
+                .articulo-info{
+                    gap: 1.5rem;
+                    padding: 0rem 1rem 0rem 1rem;
+                }
+            }
+        }
+    }
+}

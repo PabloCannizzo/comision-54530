@@ -1,0 +1,21 @@
+@media(max-width:1024px){
+    .container-fluid{
+        .d-flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .ingresar-main{
+        .mb-3{
+            .formulario{
+                .pb-3{
+                    .mb-2{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

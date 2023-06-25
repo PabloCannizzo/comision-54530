@@ -1,0 +1,65 @@
+@media (max-width:320px){
+    .noticias-main{
+        .seccion-noticias{
+            div{
+                .noticia-1{
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        h4{
+                            @include caract-h4;
+                            text-align: center;
+                        }
+                        .parrafo-1{
+                            font-size: 2rem;
+                            text-align: center;
+                            font-weight: 200;
+                        }
+                        .parrafo-2{
+                            display: none;
+                        }
+                        .parrafo-3{
+                            display: none;
+                        }
+                    }
+                    img{
+                        padding: 1.5rem 0rem 0rem 0rem;
+                        width: 24rem;
+                        height: 18rem;
+                        
+                    }
+                }
+            }
+            div{
+                .noticia-2{
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        h4{
+                            @include caract-h4;
+                            text-align: center;
+                        }
+                        .parrafo-11{
+                            font-size: 2rem;
+                            text-align: center;
+                            font-weight: 200;
+                        }
+                        .parrafo-22{
+                            display: none;
+                        }
+                    }
+                    img{
+                        padding: 1.5rem 0rem 1.5rem 0rem;
+                        width: 24rem;
+                        height: 28rem;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

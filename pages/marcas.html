@@ -21,40 +21,29 @@
 
 <body>
     <div class=marcas-hero>
-        <header class="marcas-header">
-            <div>
-                <h1>
-                    <a href="../index.html">motocicletas</a><!--agregar logotipo de la pagina-->
-                </h1>
-            </div>
-            <div>
-                <nav>
-                    <ul class="marcas-navbar">
-                        <li>
-                            <a href="../pages/marcas.html">marcas</a>
-                        </li>
-                        <li>
-                            <a href="../pages/noticias.html">noticias</a>
-                        </li>
-                        <li>
-                            <a href="../pages/eventos.html">eventos</a>
-                        </li>
-                        <li>
-                            <a href="../pages/mas-de-nosotros.html">más de nosotros</a>
-                        </li>
-                        <li>
-                            <a href="../pages/ingresar.html">ingresar</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <form action="" class="busqueda-marcas">
-                    <label for="search"></label>
-                    <input type="search" name="Busqueda" id="" placeholder="Busqueda">
-                </form>
-            </div>
-        </header>
+        <div class="container-fluid">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <div class="col-md-3 mb-2 mb-md-0">
+                    <h1 class="d-inline-flex link-body-emphasis text-decoration-none">
+                        <a class="text-decoration-none"
+                            href="../index.html">motocicletas</a><!--agregar logotipo de la pagina-->
+                    </h1>
+                </div>
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="../pages/marcas.html" class="nav-link px-2">Marcas</a></li>
+                    <li><a href="../pages/noticias.html" class="nav-link px-2">Noticias</a></li>
+                    <li><a href="../pages/eventos.html" class="nav-link px-2">Eventos</a></li>
+                    <li><a href="../pages/mas-de-nosotros.html" class="nav-link px-2">Más de Nosotros</a></li>
+                    <li><a href="../pages/ingresar.html" class="nav-link px-2">Ingresar</a></li>
+                </ul>
+                <div class="buscador-ingresar col-md-3 text-end">
+                    <form action="" class="busqueda-ingresar">
+                        <label for="search"></label>
+                        <input type="search" name="Busqueda" id="" placeholder="Busqueda">
+                    </form>
+                </div>
+            </header>
+        </div>
         <main class="marcas-main">
             <section class="seccion1">
                 <div>

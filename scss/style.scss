@@ -36,7 +36,6 @@
 @import "./layout/index/media-1024";
 @import "./layout/index/media-768";
 @import "./layout/index/media-425";
-@import  "./layout/index/media-375";
 @import "./layout/index/media-320";
 
 @import "./layout/ingresar/media-2520";
@@ -46,9 +45,28 @@
 @import "./layout/ingresar/media-375";
 @import "./layout/ingresar/media-320";
 
+@import "./layout/mas-de-nosotros/media-1440";
+@import "./layout/mas-de-nosotros/media-1024";
+@import "./layout/mas-de-nosotros/media-768";
+@import "./layout/mas-de-nosotros/media-595";
+@import "./layout/mas-de-nosotros/media-425";
+@import "./layout/mas-de-nosotros/media-320";
 
+@import "./layout/noticias/media-2540";
+@import "./layout/noticias/media-1440";
+@import "./layout/noticias/media-1024";
+@import "./layout/noticias/media-768";
+@import "./layout/noticias/media-425";
+@import "./layout/noticias/media-375";
+@import "./layout/noticias/media-320";
 
-/*CSS DE PAGINAS EN GENERAL*/
+@import "./layout/eventos/_media-1440.scss";
+@import "./layout/eventos/_media-1024.scss";
+@import "./layout/eventos/_media-768.scss";
+@import "./layout/eventos/_media-425.scss";
+@import "./layout/eventos/_media-375.scss";
+@import "./layout/eventos/_media-320.scss";
+
 
 /*------------------------INDEX----------------------*/
 
@@ -167,15 +185,3 @@
     background-position: center;
 }
 
-
-
-
-/*--------------------****-------------------*/
-
-
-/* AQUI EMPIEZA MEDIA QUERY DE INDEX.HTML*/
-
-/*---------------media query de pag ingresar-----------------*/
-
-
-/* HASTA AQUI ES RESPONDIVE DE PAGINA INDEX */
