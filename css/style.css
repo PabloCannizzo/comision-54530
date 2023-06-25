@@ -546,8 +546,7 @@ p {
 
 .eventos-main {
   background-color: rgba(0, 0, 0, 0.622);
-  color: beige;
-  padding: 0rem 1rem 0.3rem 1rem; }
+  color: beige; }
   .eventos-main .eventos-seccion-principal div h2 {
     color: #9b339b;
     text-shadow: 0.15rem 0.15rem 0.11rem #c8f63f;
@@ -572,6 +571,7 @@ p {
   .eventos-main .eventos-seccion-principal div .articulo-11 {
     background-color: rgba(255, 255, 255, 0.329);
     border-radius: 0.8rem;
+    box-shadow: 0rem 0rem 1.5rem 0rem;
     margin: 2rem;
     padding: 2rem;
     display: flex;
@@ -608,6 +608,7 @@ p {
   .eventos-main .eventos-seccion-principal div .articulo-2 {
     background-color: rgba(255, 255, 255, 0.329);
     border-radius: 0.8rem;
+    box-shadow: 0rem 0rem 1.5rem 0rem;
     margin: 2rem;
     padding: 2rem;
     display: flex;
@@ -1182,7 +1183,10 @@ p {
     font-size: 2.6rem;
     font-weight: 300;
     word-spacing: 0.5rem;
-    line-height: 2.8rem; } }
+    line-height: 2.8rem; }
+  .index-seccion-secundaria div .sitios-web .logo-google {
+    border-radius: 5rem;
+    background-color: rgba(128, 128, 128, 0.403); } }
 
 @media (max-width: 1024px) {
   .index-articulo-1 .articulo1 h4 {
@@ -2332,7 +2336,7 @@ p {
     width: 24rem;
     height: 28rem; } }
 
-@media (max-width: 425px) {
+@media (max-width: 1440px) {
   .eventos-main {
     height: 100%; }
     .eventos-main .eventos-seccion-principal div h2 {
@@ -2356,74 +2360,437 @@ p {
       text-shadow: 0.4rem 0.2rem 0.2rem #5c4732;
       /*font-family: 'Rancho', cursive;*/
       font-size: 3.5rem; }
-    .eventos-main .eventos-seccion-principal div .articulo-11 div h4 {
-      text-transform: uppercase;
-      font-size: 2.2rem;
-      font-family: 'Kanit', sans-serif;
-      padding: 0.5rem 0rem 0.5rem 0.5rem;
+    .eventos-main .eventos-seccion-principal div .articulo-11 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div {
+        width: 60%; }
+        .eventos-main .eventos-seccion-principal div .articulo-11 div h4 {
+          text-transform: uppercase;
+          font-size: 2.2rem;
+          font-family: 'Kanit', sans-serif;
+          padding: 0.5rem 0rem 0.5rem 0.5rem;
+          letter-spacing: 0.15rem;
+          text-decoration: underline;
+          align-content: center;
+          /*font-family: 'Rancho', cursive;*/
+          /*font-family: 'Kanit', sans-serif;*/
+          text-align: center; }
+        .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-1 {
+          text-align: center;
+          font-weight: 200;
+          font-size: 1.8rem; }
+        .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-2 {
+          text-align: center;
+          font-weight: 200;
+          font-size: 1.8rem; }
+        .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-3 {
+          text-align: center;
+          font-weight: 200;
+          font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 img {
+        width: 30rem;
+        height: 42rem; }
+    .eventos-main .eventos-seccion-principal div {
+      padding-top: 1.5rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem; }
+        .eventos-main .eventos-seccion-principal div .articulo-2 div {
+          width: 60%; }
+          .eventos-main .eventos-seccion-principal div .articulo-2 div h4 {
+            text-transform: uppercase;
+            font-size: 2.2rem;
+            font-family: 'Kanit', sans-serif;
+            padding: 0.5rem 0rem 0.5rem 0.5rem;
+            letter-spacing: 0.15rem;
+            text-decoration: underline;
+            align-content: center;
+            /*font-family: 'Rancho', cursive;*/
+            /*font-family: 'Kanit', sans-serif;*/
+            text-align: center; }
+          .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-11 {
+            text-align: center;
+            font-weight: 200;
+            font-size: 1.8rem; }
+          .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-22 {
+            text-align: center;
+            font-weight: 200;
+            font-size: 1.8rem; }
+          .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-33 {
+            text-align: center;
+            font-weight: 200;
+            font-size: 1.8rem; }
+          .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-44 {
+            text-align: center;
+            font-weight: 200;
+            font-size: 1.8rem; }
+        .eventos-main .eventos-seccion-principal div .articulo-2 a {
+          text-decoration: none;
+          color: black;
+          color: black;
+          text-decoration: underline;
+          text-transform: capitalize;
+          font-size: 1.5rem;
+          flex-wrap: wrap;
+          text-align: center; }
+        .eventos-main .eventos-seccion-principal div .articulo-2 img {
+          width: 30rem;
+          height: 42rem; }
+  .logo-w img {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 9rem; } }
+
+@media (max-width: 1024px) {
+  .eventos-main {
+    height: 100%; }
+    .eventos-main .eventos-seccion-principal div h2 {
+      color: #9b339b;
+      text-shadow: 0.15rem 0.15rem 0.11rem #c8f63f;
       letter-spacing: 0.15rem;
-      text-decoration: underline;
-      align-content: center;
-      /*font-family: 'Rancho', cursive;*/
-      /*font-family: 'Kanit', sans-serif;*/
-      text-align: center; }
-    .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-1 {
-      text-align: center;
-      font-weight: 200;
-      font-size: 1.8rem; }
-    .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-2 {
-      text-align: center;
-      font-weight: 200;
-      font-size: 1.8rem; }
-    .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-3 {
-      display: none; }
-    .eventos-main .eventos-seccion-principal div .articulo-11 a {
-      text-decoration: none;
-      color: black;
-      text-decoration: underline;
-      color: black;
-      text-align: center;
-      text-transform: capitalize;
-      font-size: 1.5rem;
-      flex-wrap: wrap; }
-    .eventos-main .eventos-seccion-principal div .articulo-11 img {
-      width: 30rem;
-      height: 42rem; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 div h4 {
       text-transform: uppercase;
-      font-size: 2.2rem;
-      font-family: 'Kanit', sans-serif;
-      padding: 0.5rem 0rem 0.5rem 0.5rem;
-      letter-spacing: 0.15rem;
+      text-align: center;
       text-decoration: underline;
-      align-content: center;
-      /*font-family: 'Rancho', cursive;*/
-      /*font-family: 'Kanit', sans-serif;*/
-      text-align: center; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-11 {
-      text-align: center;
-      font-weight: 200;
-      font-size: 1.8rem; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-22 {
-      text-align: center;
-      font-weight: 200;
-      font-size: 1.8rem; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-33 {
-      display: none; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-44 {
-      display: none; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 a {
-      text-align: center;
-      text-decoration: none;
-      color: black;
-      color: black;
-      text-decoration: underline;
+      font-size: 3.5rem;
+      font-family: 'Fascinate Inline', cursive;
+      padding: 1.5rem 0rem 1rem 0rem; }
+    .eventos-main .eventos-seccion-principal div h3 {
+      color: beige;
       text-transform: capitalize;
-      font-size: 1.5rem;
-      flex-wrap: wrap; }
-    .eventos-main .eventos-seccion-principal div .articulo-2 img {
-      width: 30rem;
-      height: 42rem; }
+      font-size: 3.4rem;
+      text-align: center;
+      letter-spacing: 0.35rem;
+      font-family: Fuente-h1;
+      padding: 1rem 0rem 1rem 0rem;
+      text-shadow: 0.4rem 0.2rem 0.2rem #5c4732;
+      /*font-family: 'Rancho', cursive;*/
+      font-size: 3.5rem; }
+    .eventos-main .eventos-seccion-principal div .articulo-11 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div h4 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-family: 'Kanit', sans-serif;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        letter-spacing: 0.15rem;
+        text-decoration: underline;
+        align-content: center;
+        /*font-family: 'Rancho', cursive;*/
+        /*font-family: 'Kanit', sans-serif;*/
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-1 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-3 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 img {
+        width: 36rem;
+        height: 42rem; }
+    .eventos-main .eventos-seccion-principal div .articulo-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div h4 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-family: 'Kanit', sans-serif;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        letter-spacing: 0.15rem;
+        text-decoration: underline;
+        align-content: center;
+        /*font-family: 'Rancho', cursive;*/
+        /*font-family: 'Kanit', sans-serif;*/
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-11 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-22 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-33 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-44 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 a {
+        text-decoration: none;
+        color: black;
+        color: black;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 img {
+        width: 30rem;
+        height: 42rem; }
+  .logo-w img {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 7rem; } }
+
+@media (max-width: 768px) {
+  .eventos-main {
+    height: 100%; }
+    .eventos-main .eventos-seccion-principal div h2 {
+      color: #9b339b;
+      text-shadow: 0.15rem 0.15rem 0.11rem #c8f63f;
+      letter-spacing: 0.15rem;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: underline;
+      font-size: 3.5rem;
+      font-family: 'Fascinate Inline', cursive;
+      padding: 1.5rem 0rem 1rem 0rem; }
+    .eventos-main .eventos-seccion-principal div h3 {
+      color: beige;
+      text-transform: capitalize;
+      font-size: 3.4rem;
+      text-align: center;
+      letter-spacing: 0.35rem;
+      font-family: Fuente-h1;
+      padding: 1rem 0rem 1rem 0rem;
+      text-shadow: 0.4rem 0.2rem 0.2rem #5c4732;
+      /*font-family: 'Rancho', cursive;*/
+      font-size: 3.5rem; }
+    .eventos-main .eventos-seccion-principal div .articulo-11 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div h4 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-family: 'Kanit', sans-serif;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        letter-spacing: 0.15rem;
+        text-decoration: underline;
+        align-content: center;
+        /*font-family: 'Rancho', cursive;*/
+        /*font-family: 'Kanit', sans-serif;*/
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-1 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-3 {
+        display: none; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 img {
+        width: 32rem;
+        height: 42rem; }
+    .eventos-main .eventos-seccion-principal div .articulo-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div h4 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-family: 'Kanit', sans-serif;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        letter-spacing: 0.15rem;
+        text-decoration: underline;
+        align-content: center;
+        /*font-family: 'Rancho', cursive;*/
+        /*font-family: 'Kanit', sans-serif;*/
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-11 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-22 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-33 {
+        display: none; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-44 {
+        display: none; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 a {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        color: black;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 img {
+        width: 30rem;
+        height: 42rem; }
+  .logo-w img {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 7rem; } }
+
+@media (max-width: 426px) {
+  .eventos-main {
+    height: 100%; }
+    .eventos-main .eventos-seccion-principal div h2 {
+      color: #9b339b;
+      text-shadow: 0.15rem 0.15rem 0.11rem #c8f63f;
+      letter-spacing: 0.15rem;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: underline;
+      font-size: 3.5rem;
+      font-family: 'Fascinate Inline', cursive;
+      padding: 1.5rem 0rem 1rem 0rem; }
+    .eventos-main .eventos-seccion-principal div h3 {
+      color: beige;
+      text-transform: capitalize;
+      font-size: 3.4rem;
+      text-align: center;
+      letter-spacing: 0.35rem;
+      font-family: Fuente-h1;
+      padding: 1rem 0rem 1rem 0rem;
+      text-shadow: 0.4rem 0.2rem 0.2rem #5c4732;
+      /*font-family: 'Rancho', cursive;*/
+      font-size: 3.5rem; }
+    .eventos-main .eventos-seccion-principal div .articulo-11 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div h4 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-family: 'Kanit', sans-serif;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        letter-spacing: 0.15rem;
+        text-decoration: underline;
+        align-content: center;
+        /*font-family: 'Rancho', cursive;*/
+        /*font-family: 'Kanit', sans-serif;*/
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-1 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 div .parrafo-3 {
+        display: none; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap; }
+      .eventos-main .eventos-seccion-principal div .articulo-11 img {
+        width: 30rem;
+        height: 42rem; }
+    .eventos-main .eventos-seccion-principal div .articulo-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div h4 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        font-family: 'Kanit', sans-serif;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
+        letter-spacing: 0.15rem;
+        text-decoration: underline;
+        align-content: center;
+        /*font-family: 'Rancho', cursive;*/
+        /*font-family: 'Kanit', sans-serif;*/
+        text-align: center; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-11 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-22 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 1.8rem; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-33 {
+        display: none; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 div .parrafo-44 {
+        display: none; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 a {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        color: black;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        flex-wrap: wrap; }
+      .eventos-main .eventos-seccion-principal div .articulo-2 img {
+        width: 30rem;
+        height: 42rem; }
   .logo-w img {
     width: 5rem;
     height: 5rem;

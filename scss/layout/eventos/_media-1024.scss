@@ -1,0 +1,116 @@
+@media(max-width:1024px){
+    .eventos-main{
+        height: 100%;
+        .eventos-seccion-principal{
+            div{
+                h2{
+                    @include caract-h2;
+                }
+                h3{
+                    @include caract-h3;
+                    font-size: 3.5rem
+                }
+            }
+            div{
+                .articulo-11{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 4rem;
+                    div{
+                        h4{
+                            @include caract-h4;
+                            text-align: center;
+                        }
+                        .parrafo-1{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                        .parrafo-2{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                        .parrafo-3{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                    }
+                    a{
+                        @include etiqueta-ancla;
+                        text-decoration: underline;
+                        color: black;
+                        text-align: center;
+                        text-transform: capitalize;
+                        font-size: 1.5rem;
+                        flex-wrap: wrap;
+                    }
+                    img{
+                        width: 36rem;
+                        height: 42rem;
+                    }
+                }
+            }
+            div{
+                .articulo-2{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 4rem;
+                    div{
+                        h4{
+                            @include caract-h4;
+                            text-align: center;
+                        }
+                        .parrafo-11{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                        .parrafo-22{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                        .parrafo-33{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                        .parrafo-44{
+                            text-align: center;
+                            font-weight: 200;
+                            font-size: 1.8rem;
+                        }
+                    }
+                    a{
+                        @include etiqueta-ancla;
+                        color: black;
+                        text-decoration: underline;
+                        text-transform: capitalize;
+                        font-size: 1.5rem;
+                        flex-wrap: wrap;
+                        text-align: center;
+                    }
+                    img{
+                        width: 30rem;
+                        height: 42rem;
+                    }
+                }
+            }
+        }
+    }
+    .logo-w {
+        img{
+            width: 5rem;
+            height: 5rem;
+            position: fixed;
+            right: 1.5rem;
+            bottom: 7rem;
+        }
+    }
+}

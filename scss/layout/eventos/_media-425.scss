@@ -1,4 +1,4 @@
-@media(max-width:425px){
+@media(max-width:426px){
     .eventos-main{
         height: 100%;
         .eventos-seccion-principal{
@@ -13,6 +13,11 @@
             }
             div{
                 .articulo-11{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0rem;
                     div{
                         h4{
                             @include caract-h4;
@@ -49,6 +54,11 @@
             }
             div{
                 .articulo-2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0rem;
                     div{
                         h4{
                             @include caract-h4;
