@@ -22,10 +22,6 @@ header {
   font-family: 'Kanit', sans-serif;
   border: 0.2rem solid rgba(0, 0, 0, 0.818);
   font-size: 1.6rem;
-  /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between; */
   background-image: url(../assets/img/fondo-header-3.jpg);
   background-position: 100%;
   background-repeat: no-repeat;
@@ -46,9 +42,6 @@ p {
   line-height: 2.5rem;
   align-items: normal; }
 
-/*@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&display=swap');*/
-/*poppins*/
-/*continucacion del h1*/
 @font-face {
   font-family: Fuente-h1;
   src: url("../assets/fonts/rogersan/Rogersan.otf"); }
@@ -747,7 +740,10 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(31fr);
-  grid-template-areas: none "h2-mdn" "h3-mdn" "img-logos";
+  grid-template-areas: none
+ "h2-mdn"
+ "h3-mdn"
+ "img-logos";
   justify-content: center;
   align-items: center;
   gap: 4rem; }
@@ -788,7 +784,8 @@ p {
     display: grid;
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(2 1fr);
-    grid-template-areas: "img-1 img-2 img-3" "img-4 img-5 .";
+    grid-template-areas: "img-1 img-2 img-3"
+ "img-4 img-5 .";
     justify-content: space-evenly;
     align-content: center;
     object-fit: contain; }
@@ -808,7 +805,8 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2 1fr);
-    grid-template-areas: "h3-contacto-mdn" "info-mdn";
+    grid-template-areas: "h3-contacto-mdn"
+ "info-mdn";
     justify-content: center;
     align-items: center;
     gap: 3rem; }
@@ -833,7 +831,8 @@ p {
         display: grid;
         grid-template-columns: repeat(2 1fr);
         grid-template-rows: repeat(2 1fr);
-        grid-template-areas: "img-1-info img-2-info" "img-3-info img-4-info";
+        grid-template-areas: "img-1-info img-2-info"
+ "img-3-info img-4-info";
         justify-content: center;
         align-items: center; }
         .mas-de-nosotros-main .contacto .info-mdn .articulo-info img {
@@ -1737,7 +1736,9 @@ p {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3 1fr);
-      grid-template-areas: "img-1 img-2" "img-3 img-4" "img-5 img-5";
+      grid-template-areas: "img-1 img-2"
+ "img-3 img-4"
+ "img-5 img-5";
       gap: 1.5rem; }
       .mas-de-nosotros-main .mas-de-nosotros-logo .img-logos .img-1 {
         grid-area: img-1;
